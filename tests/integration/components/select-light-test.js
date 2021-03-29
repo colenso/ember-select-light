@@ -154,7 +154,7 @@ module('Integration | Component | select-light', function(hooks) {
         @options={{this.options}}
         @value={{this.value}}
         @valueKey="val">
-				<:option as |optionValue| >{{optionValue.name}}</:option>
+				<:option as |optionValue| >{{optionValue.description}}</:option>
 			</SelectLight>
     `);
 
