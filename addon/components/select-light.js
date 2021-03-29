@@ -8,6 +8,7 @@ export default class extends Component {
     super(...arguments);
 
     this.valueKey = this.args.valueKey ?? 'value';
+    this.displayKey = this.args.displayKey ?? 'label';
     this.change = this.args.change ?? noop;
   }
 
