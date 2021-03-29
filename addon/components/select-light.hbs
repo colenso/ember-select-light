@@ -15,7 +15,7 @@
         <option
           value={{get optionValue this.valueKey}}
           selected={{is-equal (get optionValue this.valueKey) @value}}>
-          {{get optionValue this.displayKey}}
+          {{yield optionValue to="option"}}
         </option>
       {{/each}}
     {{else}}
